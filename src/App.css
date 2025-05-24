@@ -1,0 +1,18 @@
+body{
+  background-color: #121212;
+  color: white;
+}
+
+
+.card:hover img {
+  transform: scale(0.9);
+}
+.card:hover p {
+  display: block;
+}
+.card:hover .text-title {
+  border-bottom: #0768af 5px solid;
+}
+.card:hover .read-more {
+  color: #0768af ;
+}

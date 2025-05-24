@@ -16,3 +16,10 @@ body{
 .card:hover .read-more {
   color: #0768af ;
 }
+
+.game-card:hover img{
+  transform: scale(1.1);
+}
+.game-card:hover .game-text{
+  opacity: 1;
+}

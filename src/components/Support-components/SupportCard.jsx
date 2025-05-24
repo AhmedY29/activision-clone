@@ -42,13 +42,13 @@ function SupportCard() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  justify-items-center gap-x-12 gap-y-5 my-5  w-[78%]">
       {gamesInfo.map((item, index) => (
-        <div key={index} className="cursor-pointer">
-          <h1 className="text-white opacity-50 hover:opacity-100 text-base transition-all duration-200 my-4 uppercase">
+        <div key={index} className="game-card cursor-pointer">
+          <h1 className="game-text text-white opacity-50 text-base transition-all duration-200 my-4 uppercase">
             {item.title}
           </h1>
           <div className="img w-[23rem] h-[25rem] overflow-hidden ">
             <img
-              className=" object-contain hover:scale-105 transition-all duration-200"
+              className=" object-contain  transition-all duration-200"
               src={item.img}
               alt="game-img"
             />

@@ -14,13 +14,13 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 
 function Home() {
   return (
-    <section className="home-section flex flex-col">
+    <section className="home-section flex flex-col  ">
       <div className="heroes">
-        <HomeHeroCallOfDuty />
-        {/* <HomeHeroTony /> */}
-        {/* <HomeHeroCrash /> */}
-        {/* <HomeHeroCODM /> */}
-        {/* <HomeHeroTony2 /> */}
+        <HomeHeroCallOfDuty className=" w-screen" />
+        {/* <HomeHeroTony className=" w-screen" />
+        <HomeHeroCrash className="w-screen" />
+        <HomeHeroCODM className="w-screen" />
+        <HomeHeroTony2 className="w-screen" /> */}
         <div className="div w-full flex justify-center">
           <div className="div absolute bottom-20 h-[25px] flex items-center p-5 gap-5 bg-black/55 rounded-2xl  ">
             <IoIosArrowRoundBack className="text-7xl opacity-50 hover:opacity-100 transition-all duration-200 cursor-pointer" />

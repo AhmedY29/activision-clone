@@ -16,7 +16,7 @@ function HomeHeroCallOfDuty() {
         src="https://www.callofduty.com/cdn/bo6/bo6-gameplay-reveal-trailer-atvi.mp4"
       ></video>
       <div className="bg-linear-90 from-black/80 to-transparent absolute top-0 w-full h-full"></div>
-      <div className="absolute top-30 lg:top-50 flex flex-col justify-center gap-5 items-center p-10 ">
+      <div className="absolute top-50 flex flex-col justify-center gap-5 h-40 items-center p-10 ">
         <img
           src="https://www.activision.com/content/dam/atvi/callofduty/cod-touchui/blackops6/common/black-ops-6-full-logo.png"
           alt=""

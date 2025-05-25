@@ -175,7 +175,7 @@ function HomeNewsCard(props) {
   ];
   return (
     <>
-      <div className="cards grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-20 gap-y-5 justify-items-center mb-10 w-[78%]">
+      <div className="cards grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 justify-items-center mb-10 w-[78%]">
         {props.category == "all"
           ? allNews.map((item, index) => (
               <div

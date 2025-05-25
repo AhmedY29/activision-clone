@@ -6,7 +6,7 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 
 function HomeHeroCrash() {
   return (
-    <div className="text-center">
+    <div className="text-center w-full">
       <video
         playsInline
         autoPlay
@@ -15,7 +15,7 @@ function HomeHeroCrash() {
         className="h-screen w-full object-cover relative"
         src="https://www.activision.com/cdn/crash/crash_team_rumble.mp4"
       ></video>
-      <div className="bg-linear-90 from-black/80 to-transparent absolute top-0 w-full h-full"></div>
+      {/* <div className="bg-linear-90 from-black/80 to-transparent absolute top-0 w-full h-full"></div> */}
       <div className="absolute top-0 flex flex-col justify-center gap-5 items-center p-10 ">
         <img
           src="https://www.activision.com/content/dam/atvi/Crash/crash-touchui/lava/common/crash-team-rumble-logo.png"

@@ -6,7 +6,7 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 
 function HomeHeroTony2() {
   return (
-    <div className="text-center">
+    <div className="text-center w-full">
       <video
         playsInline
         autoPlay
